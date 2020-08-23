@@ -1,0 +1,115 @@
+:root {
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  height: 100vh;
+  // background-color: #443F46;
+  background-color: #2b2b2b;
+  display: flex;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+
+  .left {
+    width: 40%;
+    height: 100%;
+    padding: 2% 5%;
+    display: flex;
+    flex-direction: column;
+
+    header {
+      .logo {
+        h1 {
+          font-size: 1.5rem;
+        }
+      }
+    }
+
+    .description {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-right: 10%;
+
+      h2 {
+        font-size: 2.5rem;
+        margin-bottom: 15px;
+        outline-color: red;
+        -webkit-text-stroke: 0.7px #a8df65;
+      }
+
+      p {
+        color: rgb(177, 175, 175);
+        margin-bottom: 20px;
+        line-height: 1.5;
+      }
+
+      button {
+        width: fit-content;
+        border: none;
+        background-color: #a8df65;
+        color: #2b2b2b;
+        padding: .6rem 2.5rem;
+        border-radius: 30px;
+      }
+    }
+  }
+
+  .right {
+    flex-grow: 1;
+    background-color: #a8df65;
+    padding: 2% 5%;
+    display: flex;
+    flex-direction: column;
+
+    nav {
+      display: flex;
+      list-style: none;
+      padding: 0;
+      align-items: center;
+      height: fit-content;
+      width: 100%;
+      justify-content: center;
+
+      li {
+        margin-right: 5%;
+        font-size: 18px;
+        font-weight: 500;
+
+        a {
+          color: #2b2b2b;
+          text-decoration: none;
+        }
+
+        button {
+          border: 2px solid #2b2b2b;
+          background-color: transparent;
+          color: #2b2b2b;
+          padding: 0.5rem 1rem;
+          border-radius: 30px;
+          font-size: 16px;
+          font-weight: 500;
+          flex-grow: 1;
+        }
+      }
+    }
+
+    .hero {
+      flex-grow: 1;
+      display: flex;
+      justify-content: center;
+
+      img {
+        position: absolute;
+        bottom: -100px;
+        margin: auto;
+        max-width: 30%;
+        
+       
+      }
+    }
+  }
+}
