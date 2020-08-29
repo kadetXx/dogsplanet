@@ -1,0 +1,26 @@
+:root {
+  // customize scrollbar
+
+  ::-webkit-scrollbar {
+    width: 3px;
+  }
+
+  ::-webkit-scrollbar:hover {
+    width: 10px;
+  }
+
+  // Track
+  ::-webkit-scrollbar-track {
+    background: white;
+  }
+
+  // Handle
+  ::-webkit-scrollbar-thumb {
+    background: #2b2b2b;
+  }
+
+  // Handle hover
+  ::-webkit-scrollbar-thumb:hover {
+    background: green;
+  }
+}
