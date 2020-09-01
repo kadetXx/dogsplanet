@@ -30,6 +30,14 @@
         h1 {
           font-size: 1.5rem;
         }
+
+        button {
+          display: none;
+        }
+      }
+
+      .mobile_menu {
+        display: none;
       }
     }
 
@@ -468,8 +476,13 @@
       padding: 5%;
 
      div {
-       display: flex;
-       align-items: flex-start;
+       
+      a {
+        display: flex;
+        align-items: flex-start;
+        color: initial;
+        text-decoration: none;
+      }
 
        i {
          color: #588b19;
