@@ -313,9 +313,10 @@
       .right {
         margin: 40px 0;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: center;
         
         div {
+          margin: 0 3%;
           i {
             margin: 0;
             font-size: 1.3rem;
